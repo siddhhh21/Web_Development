@@ -15,3 +15,4 @@ const fun = () =>{
     console.log(this)
 }
 console.log(fun)
+
