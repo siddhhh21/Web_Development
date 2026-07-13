@@ -1,0 +1,5 @@
+const arr = [10, 20, 30];
+
+arr.forEach((value) => {
+    console.log(value*10);
+});
