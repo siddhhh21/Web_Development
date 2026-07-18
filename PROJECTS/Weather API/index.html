@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather APP</h1>
+        <input id="city-input" type="text" placeholder="Enter City name" required />
+        <button id="get-data-btn">Submit</button>
+        <div id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <div id="error" class="hidden">
+            <p id="error-data">Data not found!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
